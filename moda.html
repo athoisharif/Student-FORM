@@ -1,0 +1,179 @@
+ <!DOCTYPE html>
+<html lang= "en">
+
+<head>
+
+<title> student portal</title>
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="kuku.css">f
+<script src="fatty.js"></script>
+</head>
+ <body>
+
+<!-- HEADER -->
+<header>
+    <h1>Department of Computer Science & Engineering</h1>
+    <p>University Management Portal</p>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+    <ul class="menu">
+
+        <li><a href="#">Home</a></li>
+
+        <li>
+            <a href="#">Faculty</a>
+            <ul class="dropdown">
+                <li><a href="#">Full-Time Faculty</a></li>
+                <li><a href="#">Adjunct Faculty</a></li>
+                <li><a href="#">Research Group</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Students</a>
+            <ul class="dropdown">
+                <li><a href="#">Student List</a></li>
+                <li><a href="#">Class Routine</a></li>
+                <li><a href="#">Results</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Courses</a>
+
+            <ul class="dropdown">
+
+                <li><a href="#">Undergraduate</a></li>
+
+                <li>
+                    <a href="#">Programming</a>
+
+                    <ul class="sub-dropdown">
+                        <li><a href="#">C Programming</a></li>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">Python</a></li>
+                    </ul>
+
+                </li>
+
+                <li><a href="#">Graduate</a></li>
+
+            </ul>
+        </li>
+
+        <li><a href="#">Gallery</a></li>
+
+        <li><a href="#">Contact</a></li>
+
+    </ul>
+</nav>
+
+<!-- MAIN SECTION -->
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+
+        <h3>Quick Links</h3>
+
+        <ul>
+            <li>Notice Board</li>
+            <li>Class Routine</li>
+            <li>Exam Schedule</li>
+            <li>Result</li>
+            <li>Library</li>
+        </ul>
+
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+
+        <!-- ABOUT -->
+        <div class="card">
+            <h2>Welcome to CSE Department</h2>
+            <p>
+                The Department of Computer Science and Engineering
+                provides quality education in programming, database,
+                AI, networking and software development.
+            </p>
+        </div>
+
+        <!-- TABLE -->
+        <div class="card">
+
+            <h2>Course Information</h2>
+
+            <table>
+                <tr>
+                    <th>Course Code</th>
+                    <th>Course Name</th>
+                    <th>Credit</th>
+                </tr>
+
+                <tr>
+                    <td>CSE101</td>
+                    <td>Programming</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>CSE201</td>
+                    <td>Data Structures</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>CSE301</td>
+                    <td>Database</td>
+                    <td>3</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <!-- FORM -->
+        <div class="card">
+
+            <h2>Student Registration</h2>
+
+            <form onsubmit="return validateForm()">
+
+                <label for="name">Name</label>
+                <input type="text" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label>Semester</label>
+                <select id="semester">
+                    <option>Select</option>
+                    <option>1st</option>
+                    <option>2nd</option>
+                    <option>3rd</option>
+                    <option>4th</option>
+                </select>
+
+                <label>Comments</label>
+                <textarea id="comments"></textarea>
+
+                <button type="submit">Submit</button>
+				
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+<iframe src="https://elearning.org.bd/">
+ </iframe>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Department of CSE | All Rights Reserved</p>
+</footer>
